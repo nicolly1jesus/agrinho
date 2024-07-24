@@ -1,0 +1,91 @@
+*{margin: 0;}
+
+.cabeçario {
+    background-image: url("https://thumbs.dreamstime.com/b/fundo-roxo-da-textura-do-brilho-106497251.jpg"); /*repetir imagem varias vezes*/
+    background-size: contain;
+    color: rgb(255, 255, 255); /*cor da letra*/
+    display: flex; /* ficar na frente*/
+    justify-content: space-between;
+    text-shadow: rgb(92, 2, 175) 1px 0 10px; /*cor em volta da letra*/
+}
+
+.logo {
+    width: 10%; /*tamanho da imagem*/
+}
+
+body {
+    background-color: black; /*cor do fundo*/
+    font-family: 'Courier New', Courier, monospace; /*fonte da letra*/
+}
+
+.card-home{
+    padding: 0; /*espaço para todos os lados*/
+    box-sizing: border-box;
+    --bs-gutter-y: 1.5rem;
+}
+
+
+.card-body {
+    background: #000000; /*cor do fundo*/
+    color: #fafafa; /*cor da letra*/
+    padding: 1rem; /*espaço para todos os lados*/
+}
+
+a {
+    color: #fafafa; /*cor da letra*/
+    text-decoration: none;
+}
+
+.img {
+    width: 30%; /*tamanho da imagem*/
+}
+
+
+.ano-km {
+    flex: 0 0 auto;
+    width: auto; /*tamanho da imagem*/
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: contents;
+    flex-wrap: wrap;
+    margin-left: calc(var(--bs-gutter-x)* 1);
+    margin-right: calc(var(--bs-gutter-x)* 1);
+    margin-top: calc(var(--bs-gutter-y)* -1);
+}
+
+.k {
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(90px,1fr));
+}
+
+.cab{
+    padding: 3%; /*espaço para todos os lados*/
+}
+
+.audi {
+    display: flex; /*ficar na frente*/
+}
+
+.img2 {
+    width: 60%; /*tamanho da imagm*/
+}
+
+.AudiA3 {
+    padding: 2%; /*espaço para todos os lados*/
+}
+
+.MOTORCYCLE {
+    text-indent: 25%;
+}
+
+.botao{
+    color:rgb(0, 0, 0);
+    background-color: #730ad6;
+    width: 15%; 
+
+}

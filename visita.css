@@ -1,0 +1,22 @@
+*{margin: 0%;}
+
+.cabeçario {
+    background-image: url("https://thumbs.dreamstime.com/b/fundo-roxo-da-textura-do-brilho-106497251.jpg"); /*repetir imagem varias vezes*/
+    background-size: contain;
+    color: rgb(255, 255, 255); /*cor da letra*/
+    display: flex; /* ficar na frente*/
+    justify-content: space-between;
+    text-shadow: rgb(92, 2, 175) 1px 0 10px; /*cor em volta da letra*/}
+
+    .MOTORCYCLE {
+        text-indent: 25%;
+    }
+
+    .cab {
+        padding: 3%; /*espaço para todos os lados*/
+    }
+    
+    body {
+        background-color: rgb(0, 0, 0); /*cor do fundo*/
+        font-family: 'Courier New', Courier, monospace; /*fonte da letra*/
+    }
